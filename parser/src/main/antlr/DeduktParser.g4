@@ -21,8 +21,7 @@ options {
  *   // Empty file is valid
  */
 deduktSourceCode
-    : header? body?
-    | EOF
+    : header? body? | EOF
     ;
 
 // =============================================================================
